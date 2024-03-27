@@ -77,6 +77,8 @@ Los requerimientos se detallan a continuación:
 
 
 1. Validador. (1 Punto)
+
+
 Se solicita crear un programa llamado validador.py el cual permite validar si un valor se
 encuentra incluido en un conjunto de opciones.
 
@@ -94,6 +96,8 @@ una lista.
 
 
 2. Escoger nivel. (1 Punto)
+
+
 Cree un programa llamado level.py que incluya la función choose_level() que permite
 escoger el nivel de dificultad de la pregunta a realizar.
 
@@ -120,6 +124,8 @@ El funcionamiento debe ser el siguiente:
 
 
 3. Mezclar alternativas. (1 Punto)
+
+
 Crear un programa llamado shuffle.py que contenga la función shuffle_alt().
 
 
@@ -130,6 +136,8 @@ Tip: Recordar la función random.shuffle() de la librería random.
 
 
 4. Escoger una pregunta. (2 Puntos)
+
+
 Crear un programa llamado question.py que permita escoger una pregunta que no se haya
 hecho durante la ejecución del programa dependiendo del nivel de dificultad.
 
@@ -145,6 +153,8 @@ escogido y el segundo las alternativas mezcladas de acuerdo a la tarea anterior.
 
 
 5. Mostrar las preguntas en pantalla. (1 Punto)
+
+
 Crear un programa llamado print_preguntas.py, el cual permitirá mostrar en la app las
 preguntas de acuerdo a un formato:
 
@@ -167,6 +177,8 @@ siguiente manera:
 
 
 6. Verificar respuesta. (1 Punto)
+
+
 Crear un programa llamado verify.py el cual debe tener la función verificar que permite
 comprobar si la respuesta entregada por el usuario es correcta.
 
@@ -180,6 +192,8 @@ Correcta' y retornar sólo el valor True, en caso contrario debe imprimir en pan
 
 
 7. Ensamblado de la app. (3 Puntos)
+
+
 Como se mencionó anteriormente, el programa main.py incluye un esqueleto que el Tech
 Lead desarrolló. Este esqueleto ya incluye mensajes en el caso de acertar a una pregunta, de
 responder correctamente todas las preguntas o en caso de equivocarse, además de la lógica
