@@ -104,6 +104,8 @@ El funcionamiento debe ser el siguiente:
 
 
 ○ Si se eligen 2 preguntas por nivel
+
+
 ■ Las preguntas n°1 y n°2 deben ser de nivel de dificultad básicas.
 
 ■ Las preguntas n°3 y n°4 de nivel intermedio
