@@ -12,10 +12,10 @@ def validate(opciones, eleccion):
         _type_: _description_
     """
     ##########################################################################
-    if eleccion in opciones :
-        return eleccion
-    else:
+    if eleccion not in opciones :
         print('Opción no válida, ingrese una de las opciones válidas:')
+    else:
+        return eleccion
 
 
 if __name__ == '__main__':
