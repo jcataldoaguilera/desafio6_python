@@ -10,7 +10,9 @@ interactiva.
 Esta App tendrá preguntas con 3 niveles de dificultad:
 
 ● Básica
+
 ● Intermedia
+
 ● Avanzada.
 
 El mismo jugador define el número de preguntas a responder correspondientes a cada nivel de dificultad.
@@ -40,11 +42,18 @@ if __name__ == '__main__':
 
 En el archivo preguntas.py se definen 3 diccionarios:
 ● preguntas_basicas
+
 ● preguntas_intermedias
+
 ● preguntas_avanzadas.
+
+
 - Cada diccionario contiene 3 preguntas y sus correspondientes alternativas.
+
+
 - Cada pregunta es otro diccionario que posee un enunciado (un string) y alternativas
 en forma de una lista anidada.
+
 - Cada alternativa es una lista de dos elementos, siendo el primero el equivalente al
 texto de la alternativa y el segundo un indicador 0 o 1, donde 1 indica que es la
 alternativa correcta.
@@ -96,12 +105,15 @@ El funcionamiento debe ser el siguiente:
 
 ○ Si se eligen 2 preguntas por nivel
 ■ Las preguntas n°1 y n°2 deben ser de nivel de dificultad básicas.
+
 ■ Las preguntas n°3 y n°4 de nivel intermedio
+
 ■ Y las preguntas n°5 y n°6 avanzadas.
 
 
 ○ En cambio si se escogen 3 preguntas por nivel la 1,2 y 3 deben ser básicas,
 4,5,6 intermedias y 7, 8 y 9 avanzadas.
+
 ● La función debe retornar el nivel escogido.
 
 
