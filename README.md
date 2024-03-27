@@ -158,8 +158,11 @@ siguiente manera:
 
 
 ○ A. Alternativa 1
+
 ○ B. Alternativa 2
+
 ○ C. Alternativa 3
+
 ○ D. Alternativa 4
 
 
