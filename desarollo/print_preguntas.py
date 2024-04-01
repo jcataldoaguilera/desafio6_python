@@ -4,11 +4,10 @@ def print_pregunta(enunciado, alternativas):
     
     # Imprimir enunciado y alternativas
     ###############################################################
-    pass
-    
-    
-    
-    
+    print(f"{enunciado[0]}\n")
+    for i, (alt, _) in enumerate(alternativas):
+        letra = chr(65 + i)
+        print(f"{letra}. {alt}")
     ###############################################################
         
 if __name__ == '__main__':
