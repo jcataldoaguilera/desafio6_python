@@ -2,9 +2,12 @@ def choose_level(n_pregunta, p_level):
     
     # Construir lógica para escoger el nivel
     ##################################################
-    pass
-    
-    
+    if n_pregunta <= p_level:
+        level = "básicas"
+    elif n_pregunta <= (p_level*2):
+        level = "intermedias"
+    else:
+        level = "avanzadas"
     ##################################################
     
     return level
