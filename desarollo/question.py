@@ -18,8 +18,7 @@ def choose_q(dificultad):
     # escoger una pregunta
     n_elegido = random.choice(opciones[dificultad])
     # eliminarla del ambiente global para no escogerla de nuevo
-    
-    
+    opciones[dificultad].remove(n_elegido)    
     # escoger enunciado y alternativas mezcladas
     pregunta = preguntas[f'pregunta_{n_elegido}']
     alternativas = shuffle_alt(pregunta)
